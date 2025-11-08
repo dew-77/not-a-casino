@@ -18,7 +18,7 @@ export function AviatorGame() {
   const [cashedOut, setCashedOut] = useState(false);
   const [cashOutMultiplier, setCashOutMultiplier] = useState(0);
   const [gameHistory, setGameHistory] = useState<GameHistory[]>([]);
-  const [targetMultiplier, setTargetMultiplier] = useState(2.00);
+  const [_targetMultiplier, setTargetMultiplier] = useState(2.00);
   const [customBet, setCustomBet] = useState('');
   
   const intervalRef = useRef<any>(null);
